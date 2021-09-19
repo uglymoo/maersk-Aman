@@ -1,0 +1,11 @@
+.footer-container {
+    margin-top: 300px;
+}
+
+@media all and (max-width: 500px) {
+    .footer-container {
+    margin-top: 950px;
+    margin-left: 175px;
+    }
+    
+  }

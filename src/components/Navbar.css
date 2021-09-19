@@ -1,0 +1,67 @@
+.btn-shuffle {
+    background-color: #2B8EAD;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    border-radius: 0.3rem;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.btn-sort {
+    background-color: #2B8EAD;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    border-radius: 0.3rem;
+    margin-top: 20px;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.nav-item {
+     display: flex;
+     flex-direction:column ;
+     float: right;
+}
+.navbar-container{
+    margin: 30px;
+}
+
+@media all and (max-width: 500px) {
+    .nav-item {
+        display: flex;
+        flex-direction:row ;
+        float: right;
+   }
+   .navbar-container{
+    display: flex;
+    justify-content: center;
+}
+    .nav-menu{
+        display: flex;
+    }
+
+    .btn-sort {
+        background-color: #2B8EAD;
+        color: #fff;
+        width: 150px;
+        height: 80px;
+        border-radius: 0.3rem;
+        margin-top: 0px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 60px;
+    }
+
+    .btn-shuffle {
+        background-color: #2B8EAD;
+        color: #fff;
+        width: 150px;
+        height: 80px;
+        border-radius: 0.3rem;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+  }
